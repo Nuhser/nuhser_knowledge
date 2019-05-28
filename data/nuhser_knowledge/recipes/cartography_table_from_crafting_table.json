@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern":[
+		"o",
+		"#"
+	],
+	"key":{
+		"#":{
+			"item": "minecraft:crafting_table"
+		},
+		"o":{
+			"item": "minecraft:map"
+		}
+	},
+	"result":{
+		"item": "minecraft:cartography_table",
+    "count": 1
+	}
+}

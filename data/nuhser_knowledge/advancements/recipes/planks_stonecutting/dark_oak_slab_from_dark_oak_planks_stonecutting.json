@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:planks_stonecutting/dark_oak_slab_from_dark_oak_planks_stonecutting"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:dark_oak_planks"
+					}
+				]
+			}
+		}
+		}
+	},
+	"requirements":[
+		["0"]
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern":[
+		"###",
+		"#o#",
+		"###"
+	],
+	"key":{
+		"#":{
+			"item": "minecraft:prismarine"
+		},
+		"o":{
+			"item": "minecraft:black_dye"
+		}
+	},
+	"result":{
+		"item": "minecraft:dark_prismarine",
+    "count": 8
+	}
+}

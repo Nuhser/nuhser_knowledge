@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:concrete_powder/black_concrete_powder",
+			"nuhser_knowledge:concrete_powder/blue_concrete_powder",
+			"nuhser_knowledge:concrete_powder/brown_concrete_powder",
+			"nuhser_knowledge:concrete_powder/cyan_concrete_powder",
+			"nuhser_knowledge:concrete_powder/gray_concrete_powder",
+			"nuhser_knowledge:concrete_powder/green_concrete_powder",
+			"nuhser_knowledge:concrete_powder/light_blue_concrete_powder",
+			"nuhser_knowledge:concrete_powder/light_gray_concrete_powder",
+			"nuhser_knowledge:concrete_powder/lime_concrete_powder",
+			"nuhser_knowledge:concrete_powder/magenta_concrete_powder",
+			"nuhser_knowledge:concrete_powder/orange_concrete_powder",
+			"nuhser_knowledge:concrete_powder/pink_concrete_powder",
+			"nuhser_knowledge:concrete_powder/purple_concrete_powder",
+			"nuhser_knowledge:concrete_powder/red_concrete_powder",
+			"nuhser_knowledge:concrete_powder/white_concrete_powder",
+			"nuhser_knowledge:concrete_powder/yellow_concrete_powder"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:concrete_powder"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

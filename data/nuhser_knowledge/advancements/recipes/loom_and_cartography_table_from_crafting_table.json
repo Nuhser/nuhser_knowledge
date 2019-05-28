@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:cartography_table_from_crafting_table",
+			"nuhser_knowledge:loom_from_crafting_table"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:crafting_table"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		["0"]
+	]
+}

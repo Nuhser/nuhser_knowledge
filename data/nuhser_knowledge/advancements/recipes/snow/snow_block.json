@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:snow/snow_block"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:snow"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern":[
+		" ##",
+		"#o#",
+		"-# "
+	],
+	"key":{
+		"#":{
+			"item": "minecraft:gold_ingot"
+		},
+		"-":{
+			"item": "minecraft:string"
+		},
+		"o":{
+			"item": "minecraft:paper"
+		}
+	},
+	"result":{
+		"item": "minecraft:name_tag"
+	}
+}

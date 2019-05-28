@@ -1,0 +1,34 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:stripped_wood/stripped_dark_oak_wood",
+			"nuhser_knowledge:log_stonecutting/stripped_dark_oak_log_from_dark_oak_log_stonecutting",
+			"nuhser_knowledge:wood_stonecutting/dark_oak_log_from_dark_oak_wood_stonecutting",
+			"nuhser_knowledge:wood_stonecutting/stripped_dark_oak_wood_from_dark_oak_wood_stonecutting",
+			"nuhser_knowledge:stripped_wood_stonecutting/stripped_dark_oak_log_from_stripped_dark_oak_wood_stonecutting",
+			"nuhser_knowledge:items_from_dark_oak_logs/dark_oak_doors_from_dark_oak_logs",
+			"nuhser_knowledge:items_from_dark_oak_logs/dark_oak_slabs_from_dark_oak_logs",
+			"nuhser_knowledge:items_from_dark_oak_logs/dark_oak_stairs_from_dark_oak_logs",
+			"nuhser_knowledge:items_from_dark_oak_logs/dark_oak_trapdoors_from_dark_oak_logs",
+			"nuhser_knowledge:items_from_dark_oak_logs/dark_oak_pressure_plate_from_dark_oak_logs"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:dark_oak_logs"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

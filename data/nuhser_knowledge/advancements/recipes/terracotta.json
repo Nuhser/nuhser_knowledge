@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:terracotta/black_terracotta",
+			"nuhser_knowledge:terracotta/blue_terracotta",
+			"nuhser_knowledge:terracotta/brown_terracotta",
+			"nuhser_knowledge:terracotta/cyan_terracotta",
+			"nuhser_knowledge:terracotta/gray_terracotta",
+			"nuhser_knowledge:terracotta/green_terracotta",
+			"nuhser_knowledge:terracotta/light_blue_terracotta",
+			"nuhser_knowledge:terracotta/light_gray_terracotta",
+			"nuhser_knowledge:terracotta/lime_terracotta",
+			"nuhser_knowledge:terracotta/magenta_terracotta",
+			"nuhser_knowledge:terracotta/orange_terracotta",
+			"nuhser_knowledge:terracotta/pink_terracotta",
+			"nuhser_knowledge:terracotta/purple_terracotta",
+			"nuhser_knowledge:terracotta/red_terracotta",
+			"nuhser_knowledge:terracotta/white_terracotta",
+			"nuhser_knowledge:terracotta/yellow_terracotta"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:terracotta"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

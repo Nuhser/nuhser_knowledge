@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:planks_stonecutting/jungle_slab_from_jungle_planks_stonecutting"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:jungle_planks"
+					}
+				]
+			}
+		}
+		}
+	},
+	"requirements":[
+		["0"]
+	]
+}

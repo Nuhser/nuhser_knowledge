@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:concrete/black_concrete",
+			"nuhser_knowledge:concrete/blue_concrete",
+			"nuhser_knowledge:concrete/brown_concrete",
+			"nuhser_knowledge:concrete/cyan_concrete",
+			"nuhser_knowledge:concrete/gray_concrete",
+			"nuhser_knowledge:concrete/green_concrete",
+			"nuhser_knowledge:concrete/light_blue_concrete",
+			"nuhser_knowledge:concrete/light_gray_concrete",
+			"nuhser_knowledge:concrete/lime_concrete",
+			"nuhser_knowledge:concrete/magenta_concrete",
+			"nuhser_knowledge:concrete/orange_concrete",
+			"nuhser_knowledge:concrete/pink_concrete",
+			"nuhser_knowledge:concrete/purple_concrete",
+			"nuhser_knowledge:concrete/red_concrete",
+			"nuhser_knowledge:concrete/white_concrete",
+			"nuhser_knowledge:concrete/yellow_concrete"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:concrete"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

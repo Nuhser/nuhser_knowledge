@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "group": "nuhser_coral",
+    "ingredients": [
+        {"item": "minecraft:bubble_coral_block"}
+    ],
+    "result": {
+        "item": "minecraft:bubble_coral",
+        "count": 9
+    }
+}

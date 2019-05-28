@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "group": "nuhser_coral",
+    "ingredients": [
+        {"item": "minecraft:brain_coral_block"}
+    ],
+    "result": {
+        "item": "minecraft:brain_coral",
+        "count": 9
+    }
+}

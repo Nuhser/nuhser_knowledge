@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:planks_stonecutting/spruce_stairs_from_spruce_planks_stonecutting"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:spruce_planks"
+					}
+				]
+			}
+		}
+		}
+	},
+	"requirements":[
+		["0"]
+	]
+}

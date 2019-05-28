@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:coral/brain_coral",
+			"nuhser_knowledge:coral/bubble_coral",
+			"nuhser_knowledge:coral/fire_coral",
+			"nuhser_knowledge:coral/horn_coral",
+			"nuhser_knowledge:coral/tube_coral"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:coral"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

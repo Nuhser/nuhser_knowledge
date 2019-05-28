@@ -1,0 +1,56 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:horse_armor/golden_horse_armor"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:golden_helmet"
+					}
+				]
+			}
+		},
+		"1":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:golden_leggings"
+					}
+				]
+			}
+		},
+		"2":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:golden_boots"
+					}
+				]
+			}
+		},
+		"3":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:saddle"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		["0"],
+		["1"],
+		["2"],
+		["3"]
+	]
+}

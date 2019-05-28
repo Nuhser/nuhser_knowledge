@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "group": "nuhser_dead_coral",
+    "ingredients": [
+        {"item": "minecraft:dead_horn_coral_block"}
+    ],
+    "result": {
+        "item": "minecraft:dead_horn_coral",
+        "count": 9
+    }
+}

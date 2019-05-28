@@ -1,0 +1,45 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:name_tag"
+		]
+	},
+	"criteria":{
+		"has_gold_ingot":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:gold_ingot"
+					}
+				]
+			}
+		},
+		"has_string":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:string"
+					}
+				]
+			}
+		},
+		"has_paper":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:paper"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		["has_gold_ingot"],
+		["has_string"],
+		["has_paper"]
+	]
+}

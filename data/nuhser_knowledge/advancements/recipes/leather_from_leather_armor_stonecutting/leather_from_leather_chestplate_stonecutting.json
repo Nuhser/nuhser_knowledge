@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:leather_from_leather_armor_stonecutting/leather_from_leather_chestplate_stonecutting"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:leather_chestplate"
+					}
+				]
+			}
+		}
+		}
+	},
+	"requirements":[
+		["0"]
+	]
+}

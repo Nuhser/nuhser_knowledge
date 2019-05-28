@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "nuhser_terracotta",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {"tag": "minecraft:terracotta"},
+    "X": {"item": "minecraft:pink_dye"}
+  },
+  "result": {
+    "item": "minecraft:pink_terracotta",
+    "count": 8
+  }
+}

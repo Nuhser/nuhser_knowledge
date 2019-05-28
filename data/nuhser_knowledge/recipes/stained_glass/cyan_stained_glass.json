@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "nuhser_stained_glass",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {"tag": "minecraft:glass"},
+    "X": {"item": "minecraft:cyan_dye"}
+  },
+  "result": {
+    "item": "minecraft:cyan_stained_glass",
+    "count": 8
+  }
+}

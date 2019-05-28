@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:wool/black_wool",
+			"nuhser_knowledge:wool/blue_wool",
+			"nuhser_knowledge:wool/brown_wool",
+			"nuhser_knowledge:wool/cyan_wool",
+			"nuhser_knowledge:wool/gray_wool",
+			"nuhser_knowledge:wool/green_wool",
+			"nuhser_knowledge:wool/light_blue_wool",
+			"nuhser_knowledge:wool/light_gray_wool",
+			"nuhser_knowledge:wool/lime_wool",
+			"nuhser_knowledge:wool/magenta_wool",
+			"nuhser_knowledge:wool/orange_wool",
+			"nuhser_knowledge:wool/pink_wool",
+			"nuhser_knowledge:wool/purple_wool",
+			"nuhser_knowledge:wool/red_wool",
+			"nuhser_knowledge:wool/white_wool",
+			"nuhser_knowledge:wool/yellow_wool"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:wool"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

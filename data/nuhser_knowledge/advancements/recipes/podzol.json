@@ -1,0 +1,34 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:podzol"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:dirt"
+					}
+				]
+			}
+		},
+		"1":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:spruce_leaves"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		["0"],
+		["1"]
+	]
+}

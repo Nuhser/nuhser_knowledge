@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    " X ",
+    " X "
+  ],
+  "key": {
+    "#": {"tag": "minecraft:craftable_stones"},
+    "X": {"item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "minecraft:stone_pickaxe",
+    "count": 1
+  }
+}

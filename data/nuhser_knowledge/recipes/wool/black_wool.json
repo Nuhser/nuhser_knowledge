@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "nuhser_wool",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {"tag": "minecraft:wool"},
+    "X": {"item": "minecraft:black_dye"}
+  },
+  "result": {
+    "item": "minecraft:black_wool",
+    "count": 8
+  }
+}

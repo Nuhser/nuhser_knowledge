@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:items_from_logs/sticks_from_logs",
+			"nuhser_knowledge:items_from_logs/chests_from_logs",
+			"nuhser_knowledge:items_from_logs/bowls_from_logs"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:logs"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

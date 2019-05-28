@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern":[
+		"o",
+		"#"
+	],
+	"key":{
+		"#":{
+			"item": "minecraft:crafting_table"
+		},
+		"o":{
+			"tag": "minecraft:carpets"
+		}
+	},
+	"result":{
+		"item": "minecraft:loom",
+    "count": 1
+	}
+}

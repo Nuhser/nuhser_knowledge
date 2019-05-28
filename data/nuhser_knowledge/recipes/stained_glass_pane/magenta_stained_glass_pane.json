@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "nuhser_stained_glass_pane",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {"tag": "minecraft:glass_pane"},
+    "X": {"item": "minecraft:magenta_dye"}
+  },
+  "result": {
+    "item": "minecraft:magenta_stained_glass_pane",
+    "count": 8
+  }
+}

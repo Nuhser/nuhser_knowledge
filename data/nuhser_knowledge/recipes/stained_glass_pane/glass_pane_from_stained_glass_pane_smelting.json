@@ -1,0 +1,7 @@
+{
+    "type": "smelting",
+    "ingredient": {"tag": "minecraft:stained_glass_pane"},
+    "result": "minecraft:glass_pane",
+    "experience": 0,
+    "cookingtime": 100
+}

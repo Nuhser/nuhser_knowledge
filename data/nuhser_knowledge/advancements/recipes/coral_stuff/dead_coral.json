@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:dead_coral/dead_brain_coral",
+			"nuhser_knowledge:dead_coral/dead_bubble_coral",
+			"nuhser_knowledge:dead_coral/dead_fire_coral",
+			"nuhser_knowledge:dead_coral/dead_horn_coral",
+			"nuhser_knowledge:dead_coral/dead_tube_coral"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:dead_coral"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+		  "0"
+		]
+	]
+}

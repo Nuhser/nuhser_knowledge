@@ -1,0 +1,26 @@
+{
+	"type": "crafting_shaped",
+	"group": "nuhser_horse_armor",
+	"pattern":[
+		"  o",
+		"#-#",
+		"+ +"
+	],
+	"key":{
+		"o":{
+			"item": "minecraft:iron_helmet"
+		},
+		"#":{
+			"item": "minecraft:iron_leggings"
+		},
+		"-":{
+			"item": "minecraft:saddle"
+		},
+		"+":{
+			"item": "minecraft:iron_boots"
+		}
+	},
+	"result":{
+		"item": "minecraft:iron_horse_armor"
+	}
+}
