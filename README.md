@@ -1,4 +1,4 @@
-# nuhser_knowledge
+# Nuhser Knowledge
 
 ### by Nuhser
 
