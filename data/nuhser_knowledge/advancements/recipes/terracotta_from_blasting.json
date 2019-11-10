@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:terracotta_from_blasting"
+		]
+	},
+	"criteria":{
+		"0":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:clay"
+					}
+				]
+			}
+        },
+        "1":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"tag": "minecraft:terracotta"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+          "0",
+          "1"
+		]
+	]	
+}
