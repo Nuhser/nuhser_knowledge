@@ -1,0 +1,50 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards":{
+		"recipes":[
+			"nuhser_knowledge:bell"
+		]
+	},
+	"criteria":{
+		"has_gold_block":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:gold_block"
+					}
+				]
+			}
+		},
+		"has_stick":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:stick"
+					}
+				]
+			}
+		},
+		"has_bell":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":{
+				"items":[
+					{
+						"item": "minecraft:bell"
+					}
+				]
+			}
+		}
+	},
+	"requirements":[
+		[
+            "has_gold_block",
+            "has_bell"
+        ],
+		[
+            "has_string",
+            "has_bell"
+        ]
+	]
+}
