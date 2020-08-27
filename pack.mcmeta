@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 5,
+		"pack_format": 6,
 		"description": "Contains over 200 different but totally necessary recipes. No need to initialize anything. Works fine from the beginning."
 	}
 }
